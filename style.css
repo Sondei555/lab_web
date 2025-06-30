@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@600&display=swap');
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  background-color: #ECF0F1;
+  color: #2C3E50;
+  margin: 0;
+  padding: 40px;
+  display: grid;
+  gap: 30px;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+h1, h2 {
+  font-family: 'Poppins', sans-serif;
+  color: #2C3E50;
+}
+
+.section {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.logo-grid {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.logo-grid img {
+  max-width: 100px;
+  height: auto;
+}
+
+.color-box {
+  width: 60px;
+  height: 60px;
+  border-radius: 6px;
+  margin-bottom: 5px;
+}
+
+.color-item {
+  display: inline-block;
+  margin-right: 20px;
+  text-align: center;
+}
+
+.font-sample {
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+.heading-font {
+  font-family: 'Poppins', sans-serif;
+  font-size: 24px;
+}
+
+.button-sample {
+  background: #3498DB;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  font-family: 'Poppins', sans-serif;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.button-sample:hover {
+  background: #1ABC9C;
+}
+
+.icons img {
+  width: 32px;
+  height: 32px;
+  margin: 0 5px;
+}
